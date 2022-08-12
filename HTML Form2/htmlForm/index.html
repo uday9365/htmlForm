@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Info</title>
+</head>
+<body>
+    <h1>Personal Info Form</h1>
+    <form method="post">
+        <fieldset>
+            <legend>Your Info</legend>
+            <div>
+                <label for="firstName">First name</label>
+                <input type="text" id="firstName" name="first_name">
+            </div>
+            <div>
+                <label for="lastName">Last name</label>
+                <input type="text" id="lastName" name="last_name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email-add">
+            </div>
+            <div>
+                <label for="status">Status</label>
+                <select id="status" name="user_status">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="guest">Guest</option>
+                </select>
+            </div>
+            <p>Choose your favorite programming language:</p>
+            <div>
+                <input type="radio" id="java" name="lang" value="java">
+                <label for="java">JAVA</label>
+            </div>
+            <div>
+                <input type="radio" id="html" name="lang" value="html">
+                <label for="html">HTML</label>
+            </div>
+            <div>
+                <input type="radio" id="javascript" name="lang" value="javascript">
+                <label for="javascript">JavaScript</label>
+            </div>
+            <br>
+            <div>
+                <label for="cmnt">Comment</label>
+                <textarea id="cmnt" name="comment"></textarea>
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input type="date" id="date" name="today's_date">
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="sign_up" name="sign_up">
+                <label for="sign_up">Sign up for newsletter</label>
+            </div>
+            <div>
+                <input type="checkbox" id="agree" name="agree">
+                <label for="agree">Agree to terms and conditions</label>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
